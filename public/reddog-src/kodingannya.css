@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap);
+
+body {
+    padding: 2%;
+    text-align: center;
+    justify-content: center;
+    font-family: Inter, sans-serif;
+    min-height: 100dvh;
+    background-color : white;
+}
+
+.alyak-icon {
+border-radius: 50%;
+display: block;
+object-fit: contain;
+object-position: initial;
+filter: none;
+margin-left: auto;
+margin-right: auto;
+width: 96px;
+height : 96px;
+margin-top : 46px;
+margin-bottom: 16px;
+border-radius: 50%;
+}
+
+.alyak-judul {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    margin : 0px;
+}
+
+.alyak-status {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    line-height: 1.5;
+    min-width : 576 px;
+}
+
+.alyak-model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alyak-tab {
+    margin-bottom: 16px;
+    border: none;
+    width: 680px;
+    border-radius: 14px;
+    background-color: rgb(235, 238, 241);
+    text-decoration: none;
+    position: relative;
+    padding: 0;
+    padding-left: 44px;
+    padding-right: 44px;
+    min-height: 56px;
+}
+
+.alyak-tab:hover {
+    transform: scale(1.02);
+    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+    box-sizing: inherit;
+    color: inherit !important;
+    hyphens: auto;
+
+}
+
+
+.alyak-batas-atas{
+    margin-top :32px;
+}
+
+.alyak-huruf {
+    font-size: 16px;
+    margin-top: 16px;
+    color :rgb(0, 0, 0);
+}
+
+.alyak-instagram {
+    margin-top : 16px;
+    align-items : center;
+    width : 35px;
+    height : 35px;
+}
+
+.alyak-linktree {
+    align-items: center;
+    width : 90px;
+    height : 20px;
+    
+}
+
+
+
+

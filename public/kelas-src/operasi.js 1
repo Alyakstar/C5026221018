@@ -1,0 +1,17 @@
+function tambah (){
+
+    var bilangan1 = document.getElementByid("bil1").value;
+    var bilangan2 = document.getElementByid("bil2").value;
+    var hasilnya = document.getElementByid("hasil").value;
+
+    hasilnya.innerHTML = bilangan 1 + bilangan 2;
+}
+
+function kali (){
+    var bilangan1 = document.getElementByid("bil1").value;
+    var bilangan2 = document.getElementByid("bil2").value;
+    var hasilnya = document.getElementByid("hasil").value;
+
+    hasilnya.innerHTML = bilangan 1 * bilangan 2;
+
+}

@@ -1,0 +1,19 @@
+body{
+    background-image: url(backgorund.png);
+    background-size: cover;
+    position : relative;
+    backdrop-filter: brightness (0.7);
+}
+
+.uk-judul{
+    font-size: 40pt;
+}
+
+.uk-teks-1{
+    font-size: 27pt;
+    font-weight: bold;
+}
+
+.uk-teks-2{
+    font-size: 19pt; 
+}
