@@ -68,5 +68,5 @@ Route::get('responsive2', function () {
 
 Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
 Route::get('biodata', 'App\Http\Controllers\DosenController@biodata');
-
+Route::get('showjam/(jam)', 'App\Http\Controllers\DosenController@showtime');
 

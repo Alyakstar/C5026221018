@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 class DosenController extends Controller
 {
+
+    //
+    public function showtime($jam){
+        return $jam;
+    }
+    
     //
     public function index(){
         $a = 0;
