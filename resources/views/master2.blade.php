@@ -10,10 +10,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#">5026221018 Alya Callysta Nugraha</a>
 
         <!-- Links -->
         <ul class="navbar-nav">
@@ -27,23 +26,20 @@
           <!-- Dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Dropdown link
+              DATABASE
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Link 1</a>
-              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="/pegawai">Pegawai</a>
+              <a class="dropdown-item" href="#"></a>
               <a class="dropdown-item" href="#">Link 3</a>
             </div>
           </li>
         </ul>
       </nav>
-
 <div class="container">
-
     @yield('konten')
-
     @include('footer')
-
+</div>
 
 </body>
 </html>
