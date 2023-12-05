@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
-<body>
-
 @extends('master2')
+
 @section('judulhalaman','Data Pegawai')
 
 @section('konten')
@@ -18,7 +12,7 @@
 	<br/>
 	<br/>
 
-	<form action="/pegawai/store" method="post">
+
         <div class="row">
 
 
@@ -49,7 +43,7 @@
                 <textarea type="text" class="form-control" id="alamat" name="alamat"></textarea>
                 </div>
         </div>
-		<input type="submit" value="Simpan Data">
+
         <input type="submit" value="Simpan Data" class="btn btn-primary">
 	</form>
 
@@ -57,6 +51,3 @@
 </div>
 @endsection
 
-
-</body>
-</html>
