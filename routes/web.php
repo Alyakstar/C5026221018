@@ -95,7 +95,11 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@lihat');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
-
+//route CRUD latihan EAS
+Route::get('/keranjang','App\Http\Controllers\KeranjangController@table');
+Route::get('/keranjang/batal/{id}','App\Http\Controllers\KeranjangController@batal');
+Route::get('/keranjang/beli','App\Http\Controllers\KeranjangController@beli');
+Route::post('/keranjang/store','App\Http\Controllers\KeranjangController@store');
 
 
 
