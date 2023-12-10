@@ -10,7 +10,7 @@ class MouseController extends Controller
 {
 	public function indexmouse()
 	{
-        $mouse = DB::table('mouse')->get();
+        $mouse = DB::table('mouse')->paginate(6);
 		return view('indexmouse',['mouse' => $mouse]);
 
 	}

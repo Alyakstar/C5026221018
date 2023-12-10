@@ -41,5 +41,5 @@
 		</tr>
 		@endforeach
 	</table>
-    {{--{{ $mouse->links()}}--}}
+    {{ $mouse->links()}}
 @endsection
