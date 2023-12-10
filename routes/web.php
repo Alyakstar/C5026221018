@@ -101,5 +101,12 @@ Route::get('/keranjang/batal/{id}','App\Http\Controllers\KeranjangController@bat
 Route::get('/keranjang/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjang/store','App\Http\Controllers\KeranjangController@store');
 
-
-
+//route CRUD Tugas EAS
+Route::get('/mouse','App\Http\Controllers\MouseController@indexmouse');
+Route::get('/mouse/tambah','App\Http\Controllers\MouseController@tambahmouse');
+Route::get('/mouse/view/{id}','App\Http\Controllers\MouseController@viewmouse');
+Route::get('/mouse/cari','App\Http\Controllers\MouseController@carimouse');
+Route::post('/mouse/update','App\Http\Controllers\MouseController@updatemouse');
+Route::get('/mouse/hapus/{id}','App\Http\Controllers\MouseController@hapusmouse');
+Route::post('/mouse/store','App\Http\Controllers\MouseController@storemouse');
+Route::get('/mouse/edit/{id}','App\Http\Controllers\MouseController@editmouse');
