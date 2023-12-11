@@ -33,7 +33,6 @@
         <div class="form-group row">
             <label for="first_name" class="col-sm-2 col-form-label">Nama</label>
             <div class="col-sm-10">
-
                 <input type="text" class="form-control" required="required" name="nama" value="{{ $p->pegawai_nama }}">
             </div>
         </div>

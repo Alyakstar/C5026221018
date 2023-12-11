@@ -115,3 +115,7 @@ Route::get('/mouse/edit/{id}','App\Http\Controllers\MouseController@editmouse');
 Route::get('/nilai','App\Http\Controllers\NilaiController@indexnilai');
 Route::get('/nilai/tambah','App\Http\Controllers\NilaiController@tambahnilai');
 Route::post('/nilai/store','App\Http\Controllers\NilaiController@storenilai');
+
+
+//route CRUD Kode EAS AA
+Route::get('/chat','App\Http\Controllers\ChatController@indexchat');

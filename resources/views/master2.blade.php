@@ -33,6 +33,7 @@
               <a class="dropdown-item" href="/keranjang">Keranjang Belanja</a>
               <a class="dropdown-item" href="/mouse">Mouse</a>
               <a class="dropdown-item" href="/nilai">Nilai Kuliah</a>
+              <a class="dropdown-item" href="/chat">Chat</a>
             </div>
           </li>
         </ul>
