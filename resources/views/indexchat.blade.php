@@ -4,6 +4,14 @@
 
 	<h3>Chat ke emoji</h3>
 
+    <style>
+        .emot {
+
+        max-width: 20px;
+        max-height: 20px;
+        }
+    </style>
+
     @foreach ($chat as $c)
     <div>
         @php
@@ -18,7 +26,7 @@
             $kalimat = explode(' ', $c->chat_pesan);
             // menggantikan kata-kata tertentu dengan gambar
             $kalimat = array_map(function($kata) use ($emojiconvert) {
-                return isset($emojiconvert[$kata]) ? '<img src="' . asset('eas-src/' . $emojiconvert[$kata]) . '" alt="' . $kata . '" style="max-width: 37px; max-height: 37px;" />' : $kata;
+                return isset($emojiconvert[$kata]) ? '<img src="' . asset('eas-src/' . $emojiconvert[$kata]) . '" alt="' . $kata . '" class="emot" />' : $kata;
             }, $kalimat);
             $c->chat_pesan = implode(' ', $kalimat);
         @endphp

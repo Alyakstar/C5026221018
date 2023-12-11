@@ -17,11 +17,4 @@ class ChatController extends Controller
 		return view('indexchat',['chat' => $chat]);
 
 	}
-
-    public function emojichat()
-    {
-        //mengkonversi simbol ke emoji
-        
-
-    }
 }
