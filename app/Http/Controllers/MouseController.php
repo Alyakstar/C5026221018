@@ -31,22 +31,22 @@ class MouseController extends Controller
 			'stockmouse' => $request->stockmouse,
 			'tersedia' => $request->tersedia = ($request->stockmouse != 0) ? 'Y':'N',
 		]);
-		// alihkan halaman ke halaman pegawai
+		// alihkan halaman ke halaman mouse
 		return redirect('/mouse');
 
 	}
 
-	// method untuk edit data pegawai
+	// method untuk edit data mouse
 	public function editmouse($id)
 	{
-		// mengambil data pegawai berdasarkan id yang dipilih
+		// mengambil data mouse berdasarkan id yang dipilih
 		$mouse = DB::table('mouse')->where('kodemouse',$id)->get();
 		// passing data sepatu yang didapat ke view edit.blade.php
 		return view('editmouse',['mouse' => $mouse]);
 
 	}
 
-	// update data pegawai
+	// update data mouse
 	public function updatemouse(Request $request)
 	{
 		// update data
@@ -56,23 +56,23 @@ class MouseController extends Controller
 			'stockmouse' => $request->stockmouse,
 			'tersedia' => $request->tersedia = ($request->stockmouse != 0) ? 'Y':'N',
 		]);
-		// alihkan halaman ke halaman pegawai
+		// alihkan halaman ke halaman mouse
 		return redirect('/mouse');
 	}
 
-	// method untuk hapus data pegawai
+	// method untuk hapus data mouse
 	public function hapusmouse($id)
 	{
-		// menghapus data pegawai berdasarkan id yang dipilih
+		// menghapus data mouse berdasarkan id yang dipilih
 		DB::table('mouse')->where('kodemouse',$id)->delete();
 
-		// alihkan halaman ke halaman pegawai
+		// alihkan halaman ke halaman mouse
 		return redirect('/mouse');
 	}
 
     public function viewmouse($id)
 	{
-		// mengambil data pegawai berdasarkan id yang dipilih
+		// mengambil data mouse berdasarkan id yang dipilih
 		$mouse = DB::table('mouse')->where('kodemouse',$id)->get();
 
 		return view('viewmouse',['mouse' => $mouse]);

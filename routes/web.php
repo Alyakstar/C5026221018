@@ -95,7 +95,7 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@lihat');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
-//route CRUD latihan EAS
+//route CRUD latihan EAS Perempuan
 Route::get('/keranjang','App\Http\Controllers\KeranjangController@table');
 Route::get('/keranjang/batal/{id}','App\Http\Controllers\KeranjangController@batal');
 Route::get('/keranjang/beli','App\Http\Controllers\KeranjangController@beli');
@@ -110,3 +110,8 @@ Route::post('/mouse/update','App\Http\Controllers\MouseController@updatemouse');
 Route::get('/mouse/hapus/{id}','App\Http\Controllers\MouseController@hapusmouse');
 Route::post('/mouse/store','App\Http\Controllers\MouseController@storemouse');
 Route::get('/mouse/edit/{id}','App\Http\Controllers\MouseController@editmouse');
+
+//route CRUD latihan EAS Laki - Laki
+Route::get('/nilai','App\Http\Controllers\NilaiController@indexnilai');
+Route::get('/nilai/tambah','App\Http\Controllers\NilaiController@tambahnilai');
+Route::post('/nilai/store','App\Http\Controllers\NilaiController@storenilai');

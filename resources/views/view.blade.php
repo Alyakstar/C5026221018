@@ -13,9 +13,18 @@
 	<br/>
 
     <div class="row">
-        <div class="col-4">
-
+        <div class="col-1"></div>
+        <div class="col-3">
+            <div class="card" style="width:200px">
+                <img src="{{ asset('/pegawai-src/alyatdc.jpg') }}">
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
         </div>
+
         <div class="col-8">
             @foreach($pegawai as $p)
     <fieldset disabled>
